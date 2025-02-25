@@ -2,6 +2,7 @@
 
 I completed the tutorial [Dockerizing Flask with Postgres, Gunicorn, and Nginx](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/) to deploy a Flask web application using Docker. It includes a Dockerfile to containerize the Flask app and two Docker Compose files to manage the application's services. The first file file, `docker-compose.yml`, is used for development, while `docker-compose.prod.yml` is for production. Both are configured to integrate a PostgreSQL database, but the latter also includes Gunicorn as the WSGI server and Nginx as a reverse proxy. I used Gunicorn instead of Flask's built-in development server because Gunicorn can handle multiple requests concurrenctly. Additionally, Nginx serves media files, improving performance and scalability. This setup ensures a secure and production-ready environment for Flask applications.
 
+<img src="example.gif" width="500">
 
 ## Build Instructions
 
