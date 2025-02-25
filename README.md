@@ -1,5 +1,7 @@
 # flask-on-docker
 
+https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/
+
 Overview
 In one paragraph, describe what the repo does
 
